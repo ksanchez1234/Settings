@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+}
+
+.settings {
+  background-color: #fafafa;
+  float: center;
+  padding: 50px;
+}
+
+.settings_header {
+  background-color: none;
+  object-fit: contain;
+  padding-bottom: 25px;
+  font-weight: lighter;
+}
+
+/* General */
+.general {
+  padding-bottom: 15px;
+}
+
+.general_user {
+  /*border-radius: 50px; */
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  width: 900px;
+}
+
+.avatar {
+  background-color: rgba(194, 189, 189, 0.568);
+  padding: 30px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.avatar_header {
+  transform: translate(0%, 60%);
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.avatar_note {
+  transform: translate(-20%, 60%);
+  opacity: 0.4;
+}
+
+.user {
+  background-color: white;
+  padding: 30px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.name_header {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.user_name {
+  transform: translate(-120%, 0%);
+}
+
+.userBtn {
+  opacity: 0.4;
+}
+
+.user_title {
+  background-color: white;
+  padding: 30px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.title_header {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.title_name {
+  transform: translate(-100%, 0%);
+}
+.titleBtn {
+  opacity: 0.4;
+}
+
+/* Governance*/
+
+.governance {
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.governance_menu {
+  /*border-radius: 5px; */
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  width: 900px;
+}
+
+.domain {
+  background-color: white;
+  padding: 30px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.domainBtn {
+  opacity: 0.4;
+}
+
+.govern {
+  background-color: white;
+  padding: 30px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.governBtn {
+  opacity: 0.4;
+}
+
+.sensitivity {
+  background-color: white;
+  padding: 30px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.sensitivityBtn {
+  opacity: 0.4;
+}
